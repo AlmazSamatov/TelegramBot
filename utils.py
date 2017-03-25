@@ -14,7 +14,7 @@ markup_for_admin.row("Изменить пароль")
 
 markup_for_learner = types.ReplyKeyboardMarkup(one_time_keyboard=True)
 markup_for_learner.row("Список моих ачивок", "Где я живу?")
-markup_for_learner.row("Расписание на день", "Начать квест")
+markup_for_learner.row("Расписание на день")
 markup_for_learner.row("Информация о текущем событии")
 markup_for_learner.row("Номера телефонов вожатых и преподователей")
 
