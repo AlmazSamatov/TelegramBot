@@ -31,11 +31,11 @@ Telegram bot ot for GoToCamp
 
 ## Инструкция по настройке и установке: 
 Чтобы бот корректно работал, надо запустить файлы bot.py и scheduler.py. На сервере должны быть установлены следующие библиотеки для python: pytelegrambotapi, schedule.
-Вы можете сделать это следующими операциями: python -m pip install schedule и python -m pip install pytelegrambotapi. Также нужно заполнить файл room_allocation.txt следующими данными: в каждой следующей строке необходимо ввести Фамилию(из Телеграма), Имя(из Телеграма), Alias(без @), корпус в котором живёт ученик и комната через пробел.  
+Вы можете сделать это следующими операциями: python -m pip install schedule и python -m pip install pytelegrambotapi. Также нужно заполнить файл room_allocation.txt следующими данными: в каждой следующей строке необходимо ввести Фамилию(из Телеграма), Имя(из Телеграма), Alias(без @; если нет, то поставить -), корпус в котором живёт ученик и комната через пробел.  
 
 ***Пример***:  
-Almaz Samatov samatov_almaz 1 401  
-Dilshat Salikhov Dilschat 1 401  
+Almaz Samatov samatov 1 101  
+Dilshat Salikhov dil 1 301  
 
 Также нужно заполнить файл info.txt данными о номерах телефонов вожатых и преподавателей.  
   
