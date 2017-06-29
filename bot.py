@@ -7,9 +7,7 @@ import utils
 import datetime
 import codecs
 from telebot import types
-from SQLiteHelper import SQLightHelperForUsers
-from SQLiteHelper import SQLightHelperForAchievements
-from SQLiteHelper import SQLightHelperForSchedule
+from SQLiteHelper import SQLightHelperForUsers, SQLightHelperForAchievements, SQLightHelperForSchedule
 
 bot = telebot.TeleBot(config.token)
 
